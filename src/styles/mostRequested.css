@@ -1,0 +1,122 @@
+/*texto y botones*/
+.containerMostReq {
+  font-size: 30px;
+  text-align: center;
+}
+.containerMostReq .leftSpan {
+  color: #ff0000;
+}
+.containerMostReq .rigthSpan {
+  color: #faaf25;
+}
+.buttonMostReq {
+  cursor: pointer;
+  text-align: center;
+  width: 130px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 300;
+  border: none;
+  box-shadow: none;
+  text-decoration: none;
+  background-color: #ff0000;
+  border-radius: 20px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.containerHeart {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 5px;
+  margin-right: 20px;
+  z-index: 0;
+}
+.containerHeart svg {
+  fill: #cacaca;
+  cursor: pointer;
+}
+/**/
+/*carrito de compras*/
+
+.shoppingCartContainer {
+  width: 50%;
+  min-height: 650px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  /**/
+  border: 1px solid rgba(0, 0, 0, 0.2); /* Negro con 30% de opacidad */
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0px;
+  align-items: center; /* Centra verticalmente el contenido en cada celda */
+  justify-items: center; /* Centra horizontalmente el contenido en cada celda */
+}
+
+.shoppingCartContainer .elementsShoppingCart {
+  width: 190px;
+  height: 250px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  gap: 5px;
+  overflow: hidden;
+}
+/**/
+.shoppingCartContainer .elementsShoppingCart img {
+  width: 80px;
+  height: 105px;
+  z-index: 1;
+  margin: 0px;
+}
+.shoppingCartContainer .elementsShoppingCart p {
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+  text-align: centern;
+}
+#descriptionFood {
+  font-size: 8px;
+  color: black;
+  font-weight: 200;
+  text-align: left;
+  margin: 0px 20px;
+
+  width: 170px;
+}
+.buttonShoppingCartContainer {
+  margin-bottom: 10px;
+  width: 110px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: #faaf25;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.buttonShoppingCartContainer:hover {
+  background-color: #a17422;
+}
+.buttonShoppingCartContainer svg {
+  width: 15px;
+}
+.buttonShoppingCartContainer span {
+  color: black;
+  font-size: 8px;
+}
+/**/
