@@ -1,0 +1,72 @@
+.containerPreviewAboutUs {
+  background-color: black;
+  width: 100%;
+  height: 800px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1d1d1d;
+  margin-bottom: 120px;
+  position: relative;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.childrenContainerPreviewAboutUs {
+  flex: 0 0 80%;
+  display: flex;
+}
+.svgPreviewAboutUs {
+  flex: 0 0 auto;
+  height: auto;
+  width: 100vw;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+}
+.imagePreviewAboutUs {
+  flex: 0 0 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagePreviewAboutUs img {
+  width: 75%;
+  height: 500px;
+}
+.textPreviewAboutUs {
+  flex: 0 0 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+/*text preview*/
+
+.titleTextPreview {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
+  width: 650px;
+  line-height: 55px;
+  color: white;
+}
+.titleTextColor1 {
+  font-weight: 700;
+  color: #faa307;
+}
+.titleTextColor2 {
+  font-weight: 700;
+  color: #d00000;
+}
+.descriptionTextPreview {
+  width: 700px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 24px;
+}
+
+/**/
