@@ -1,7 +1,7 @@
 .containerPreviewAboutUs {
   background-color: black;
   width: 100%;
-  height: 800px;
+  height: 900px;
   margin-top: 200px;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
   display: flex;
 }
 .svgPreviewAboutUs {
-  flex: 0 0 auto;
+  flex: 0 0 20%;
   height: auto;
   width: 100vw;
   bottom: 0px;
@@ -31,7 +31,7 @@
 }
 .imagePreviewAboutUs img {
   width: 75%;
-  height: 500px;
+  height: 650px;
 }
 .textPreviewAboutUs {
   flex: 0 0 25%;
@@ -64,8 +64,8 @@
 .descriptionTextPreview {
   width: 700px;
   text-align: left;
-  font-size: 18px;
-  font-weight: lighter;
+  font-size: 15px;
+  font-weight: 200;
   line-height: 24px;
 }
 

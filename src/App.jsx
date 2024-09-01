@@ -4,7 +4,7 @@ import MainContent from './components/MainContent';
 import MostRequested from './components/MostRequested';
 import AdvertisingPoster from './components/AdvertisingPoster';
 import PreviewAboutUs from './components/PreviewAboutUs';
-
+import ChoiseYourExperience from './components/ChoiseYourExperience';
 function App() {
   return (
     <>
@@ -13,6 +13,7 @@ function App() {
       <MostRequested></MostRequested>
       <AdvertisingPoster></AdvertisingPoster>
       <PreviewAboutUs></PreviewAboutUs>
+      <ChoiseYourExperience></ChoiseYourExperience>
     </>
   );
 }

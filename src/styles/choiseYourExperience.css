@@ -1,0 +1,128 @@
+.containerChoiseExperience {
+  width: 100%;
+  position: relative;
+  height: 900px;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+}
+.elementsTop {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  z-index: 0;
+  position: absolute;
+  top: -100px;
+}
+.elementsTop img {
+  width: 300px;
+  height: 400px;
+}
+#tomato {
+  width: 400px;
+  height: 400px;
+  margin-left: 90px;
+}
+#plantLeaves {
+  margin-right: 50px;
+  width: 500px;
+  height: 500px;
+}
+.elementsBottom {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 0;
+  position: absolute;
+  top: 800px;
+}
+.elementsBottom img {
+  width: 300px;
+  height: 400px;
+}
+#greens {
+  width: 600px;
+  height: 600px;
+}
+
+.containerTextChoiseExp {
+  margin-top: 100px;
+  width: 90%;
+  background-image: url(../assets/backgroundChoiseExperience.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  border-top-right-radius: 300px;
+  border-bottom-right-radius: 300px;
+  border: none;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.containerTextChoiseExp h4 {
+  color: white;
+  font-size: 33px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.subContainerTextChoiseExp {
+  width: 90%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.elementsSubContainer {
+  width: 350px;
+  background-color: white;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  position: relative;
+}
+.elementsSubContainer p {
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+  position: relative;
+  z-index: 2;
+  margin: 0;
+}
+.elementsSubContainer span {
+  color: #fb1414;
+}
+.containerIcon {
+  width: 120px;
+  background-color: white;
+  height: 120px;
+  border-radius: 300px;
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerIcon img {
+  width: 75px;
+  height: 75px;
+}
+
+#elementSubContainerMid {
+  top: 70px;
+}
