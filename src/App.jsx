@@ -5,6 +5,7 @@ import MostRequested from './components/MostRequested';
 import AdvertisingPoster from './components/AdvertisingPoster';
 import PreviewAboutUs from './components/PreviewAboutUs';
 import ChoiseYourExperience from './components/ChoiseYourExperience';
+import LocationRestaurant from './components/LocationRestaurant';
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <AdvertisingPoster></AdvertisingPoster>
       <PreviewAboutUs></PreviewAboutUs>
       <ChoiseYourExperience></ChoiseYourExperience>
+      <LocationRestaurant></LocationRestaurant>
     </>
   );
 }
