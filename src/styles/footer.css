@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: start;
   width: 100%;
-  flex: 0 0 80%;
+  flex: 0 0 85%;
   gap: 45px;
 }
 hr {
@@ -71,4 +71,45 @@ a {
 .elementsContainerTopFooter p {
   font-size: 12px;
   font-weight: 200;
+}
+
+.bottomFooter {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.bottomFooter hr {
+  width: 100%;
+}
+
+.elementsContainerBottomFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.bottomFooterLeft {
+  margin-left: 10px;
+}
+.bottomFooterLeft p {
+  font-size: 12px;
+  font-weight: 200;
+}
+.bottomFooterRight {
+  margin-right: 20px;
+}
+.bottomFooterRight svg {
+  color: white;
+  width: 25px;
+  height: 25px;
+}
+.bottomFooterRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
