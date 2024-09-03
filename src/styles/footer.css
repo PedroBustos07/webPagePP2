@@ -1,0 +1,74 @@
+.containerFooter {
+  background-color: #141414;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  flex: 0 0 80%;
+  gap: 45px;
+}
+hr {
+  width: 110%;
+  opacity: 0.4;
+}
+.dividerLine {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerTopFooter1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.containerTopFooter1 h4 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+.containerTopFooter1 p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.containerTopFooter2 {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 140px;
+}
+.elementsContainerTopFooter a {
+  text-decoration: none;
+  margin: 0;
+  color: white;
+}
+.elementsContainerTopFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.elementsContainerTopFooter span,
+a {
+  font-size: 14px;
+  font-weight: 300;
+}
+.elementsContainerTopFooter p {
+  font-size: 12px;
+  font-weight: 200;
+}

@@ -6,6 +6,7 @@ import AdvertisingPoster from './components/AdvertisingPoster';
 import PreviewAboutUs from './components/PreviewAboutUs';
 import ChoiseYourExperience from './components/ChoiseYourExperience';
 import LocationRestaurant from './components/LocationRestaurant';
+import Footer from './components/Footer';
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
       <PreviewAboutUs></PreviewAboutUs>
       <ChoiseYourExperience></ChoiseYourExperience>
       <LocationRestaurant></LocationRestaurant>
+      <Footer></Footer>
     </>
   );
 }
