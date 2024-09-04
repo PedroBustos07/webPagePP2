@@ -2,7 +2,7 @@ import '../styles/footer.css';
 
 export default function Footer() {
   return (
-    <div className='containerFooter'>
+    <div className='containerFooter' id='footer'>
       <div className='topFooter'>
         <div className='containerTopFooter1'>
           <h4>Boulevard Lomos</h4>
@@ -16,14 +16,14 @@ export default function Footer() {
           <div className='containerTopFooter2'>
             <div className='elementsContainerTopFooter'>
               <span>Horarios</span>
-              <p> Lunes a Domingo de 8 PM a 1 AM.</p>
+              <p> Lunes a Domingo de 7:30 PM a 1 AM.</p>
             </div>
             <div className='elementsContainerTopFooter'>
               <span>Contacto</span>
               <p>0263 442-0151</p>
             </div>
             <div className='elementsContainerTopFooter'>
-              <a href='#'>Inicio</a>
+              <a href='#navBarId'>Inicio</a>
             </div>
             <div className='elementsContainerTopFooter'>
               <a href='#'>Sobre Nosotros</a>

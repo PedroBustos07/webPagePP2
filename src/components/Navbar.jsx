@@ -1,9 +1,10 @@
 import '../styles/navBar.css';
 import logoBoulevard from '../assets/BLPNG.png';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <div className='navBar'>
+    <div className='navBar' id='navBarId'>
       <div className='navBar-icono'>
         <a href=''>
           <img src={logoBoulevard} alt='logoBoulevard' />
@@ -12,10 +13,10 @@ export default function Navbar() {
       <div className='navBar-links'>
         <ul>
           <li>
-            <a href='#'>Inicio</a>
-            <a href='#'>Sobre Nosotros</a>
-            <a href='#'>Menu</a>
-            <a href='#'>Contacto</a>
+            <Link to='/'>Inicio</Link>
+            <Link to='/AboutUs'>Sobre Nosotros</Link>
+            <Link to='#'>Menu</Link>
+            <a href='#footer'>Contacto</a>
           </li>
         </ul>
       </div>
