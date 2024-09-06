@@ -1,5 +1,5 @@
-import '../styles/mostRequested.css';
-import hamburguesaPng from '../assets/hamburguesa2png.png';
+import './mostRequested.css';
+import hamburguesaPng from '../../assets/hamburguesa2png.png';
 export default function MostRequested() {
   return (
     <div className='containerMostReq'>

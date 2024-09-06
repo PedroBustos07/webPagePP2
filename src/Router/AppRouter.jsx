@@ -1,6 +1,6 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
-import HomePage from '../components/HomePage';
-import AboutUsPage from '../components/AboutUsPage';
+import HomePage from '../pages/homePage/HomePage';
+import AboutUsPage from '../pages/aboutUs/AboutUsPage';
 
 export default function AppRouter() {
   return (

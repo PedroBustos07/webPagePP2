@@ -1,5 +1,5 @@
-import '../styles/mainContent.css';
-import portadaBoulevard from '../assets/portadaBoulevard.jpg';
+import './mainContent.css';
+import portadaBoulevard from '../../assets/portadaBoulevard.jpg';
 
 export default function MainContent() {
   return (

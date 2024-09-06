@@ -1,5 +1,5 @@
-import '../styles/previewAboutUs.css';
-import chefPreviewAboutUs from '../assets/cheftPreviewAboutUs.png';
+import './previewAboutUs.css';
+import chefPreviewAboutUs from '../../assets/cheftPreviewAboutUs.png';
 export default function PreviewAboutUs() {
   return (
     <div className='containerPreviewAboutUs'>

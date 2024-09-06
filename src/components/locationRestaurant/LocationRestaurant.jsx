@@ -1,4 +1,4 @@
-import '../styles/locationRestaurant.css';
+import './locationRestaurant.css';
 export default function LocationRestaurant() {
   return (
     <div className='containerLocationRestaurant'>

@@ -1,5 +1,5 @@
-import '../styles/navBar.css';
-import logoBoulevard from '../assets/BLPNG.png';
+import './navBar.css';
+import logoBoulevard from '../../assets/BLPNG.png';
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {

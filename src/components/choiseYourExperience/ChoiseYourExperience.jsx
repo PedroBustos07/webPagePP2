@@ -1,10 +1,10 @@
-import '../styles/choiseYourExperience.css';
-import greens from '../assets/greens.png';
-import plantLeaves from '../assets/plantLeaves.png';
-import tomato from '../assets/tomato.png';
-import takeAwayIcon from '../assets/take-away-icon.png';
-import creditCard from '../assets/credit-card.png';
-import localDinner from '../assets/cenaLocal.png';
+import './choiseYourExperience.css';
+import greens from '../../assets/greens.png';
+import plantLeaves from '../../assets/plantLeaves.png';
+import tomato from '../../assets/tomato.png';
+import takeAwayIcon from '../../assets/take-away-icon.png';
+import creditCard from '../../assets/credit-card.png';
+import localDinner from '../../assets/cenaLocal.png';
 
 export default function ChoiseYourExperience() {
   return (
