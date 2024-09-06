@@ -1,0 +1,46 @@
+.containerOurSpecialty {
+  width: 100%;
+  height: 500px;
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+}
+.leftSectionContainerSpecialty {
+  flex: 0 0 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.infoLeftSectionContainerSpecialty {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.rightSectionContainerSpecialty {
+  flex: 0 0 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.rightSectionContainerSpecialty img {
+  width: 80%;
+  height: 100%;
+}
+.titleSectionAboutUs {
+  width: 300px;
+  text-align: center;
+}
+.textSectionAboutUs {
+  width: 700px;
+}
+
+.infoLeftSectionContainerSpecialty .spanTitleSectionAboutUs {
+  color: #d00000;
+}

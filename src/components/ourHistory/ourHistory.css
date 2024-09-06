@@ -1,0 +1,48 @@
+.containerOurHistory {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  overflow: hidden;
+}
+.firstSectionOurHistory {
+  flex: 0 0 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.firstSectionOurHistory img {
+  width: 100%;
+  height: 100%;
+}
+.secondSectionOurHistory {
+  display: flex;
+  flex-direction: column;
+  justify-content: star;
+  align-items: start;
+  flex: 0 0 50%;
+  padding-top: 150px;
+  padding-left: 50px;
+}
+.infoSecondSectionOurHistory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.titleSectionAboutUs {
+  font-size: 42px;
+  width: 150px;
+  font-weight: 500;
+}
+.spanTitleSectionAboutUs {
+  font-weight: 700;
+  color: #faa307;
+}
+.textSectionAboutUs {
+  color: black;
+  font-size: 18px;
+  font-weight: 200;
+  width: 600px;
+}
