@@ -1,0 +1,75 @@
+.containerEnvironment {
+  width: 100%;
+  height: 850px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1c1c;
+}
+
+/* Asegura que ambos SVGs ocupen el ancho completo */
+.topEnv,
+.bottomEnv {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+/* Para que el SVG superior esté pegado arriba */
+.topEnv {
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: -5px; /* Ajuste para evitar espacio o línea visible */
+}
+
+/* Para que el SVG inferior esté pegado abajo */
+.bottomEnv {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: -5px; /* Este ajuste evita la línea visible en la parte inferior */
+}
+
+.midEnv {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: auto;
+  gap: 90px;
+  flex: 0 0 100%;
+}
+.leftMidEnv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.rigthMidEnv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#textSectionAboutUsWhite {
+  color: white;
+}
+#titleSectionAboutUsWhite {
+  color: white;
+}
+
+/* Ajustes adicionales para dispositivos móviles */
+@media (max-width: 768px) {
+  .containerEnvironment {
+    height: auto; /* Ajusta la altura para pantallas pequeñas */
+  }
+
+  .topEnv {
+    margin-top: -2px; /* Pequeño ajuste adicional para evitar la línea visible arriba */
+  }
+
+  .bottomEnv {
+    margin-bottom: -2px; /* Ajuste para pantallas móviles en el SVG inferior */
+  }
+}

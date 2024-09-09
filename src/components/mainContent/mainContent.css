@@ -102,7 +102,7 @@ span {
 
 .waves {
   position: absolute;
-  bottom: 0;
+  bottom: -5px;
   left: 0;
   width: 100%;
   height: auto;
