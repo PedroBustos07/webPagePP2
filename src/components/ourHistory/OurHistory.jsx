@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 export default function OurHistory({
   image,
   imageClass,
+  titleClass,
   title,
   titleSpan,
   textInfo,
@@ -15,7 +16,11 @@ export default function OurHistory({
       <div className='secondSectionOurHistory'>
         <div className='infoSecondSectionOurHistory'>
           <h3 className='titleSectionAboutUs'>
-            {title} <p className='spanTitleSectionAboutUs'> {titleSpan}</p>{' '}
+            {title}{' '}
+            <p className='spanTitleSectionAboutUs' id={titleClass}>
+              {' '}
+              {titleSpan}
+            </p>{' '}
           </h3>
           <p className='textSectionAboutUs'>{textInfo}</p>
         </div>
@@ -30,4 +35,5 @@ OurHistory.propTypes = {
   title: PropTypes.string.isRequired,
   titleSpan: PropTypes.string,
   textInfo: PropTypes.string.isRequired,
+  titleClass: PropTypes.string,
 };

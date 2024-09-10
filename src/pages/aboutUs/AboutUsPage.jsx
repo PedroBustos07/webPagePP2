@@ -5,6 +5,9 @@ import Navbar from '../../components/navbar/Navbar';
 import OurHistory from '../../components/ourHistory/OurHistory';
 import OurSpecialty from '../../components/ourSpecialty/OurSpecialty';
 import TheEnvironment from '../../components/theEnvironment/TheEnvironment';
+import LocationRestaurant from '../../components/locationRestaurant/LocationRestaurant';
+import Footer from '../../components/footer/Footer';
+import chefEgg from '../../assets/chefEgg.png';
 
 export default function AboutUsPage() {
   return (
@@ -31,6 +34,20 @@ export default function AboutUsPage() {
         que preocuparte por el autoservicio, solo por disfrutar.'
       ></OurHistory>
       <TheEnvironment></TheEnvironment>
+      <OurHistory
+        image={chefEgg}
+        title='Nuestro'
+        titleSpan='Compromiso'
+        titleClass='colorRedTitle'
+        textInfo='La calidad es nuestra prioridad. Nos aseguramos de que cada plato que servimos esté preparado con los mejores ingredientes,
+         frescos y cuidadosamente seleccionados. Estamos comprometidos a ofrecer una experiencia gastronómica que va más allá de lo común, donde cada bocado es un
+          reflejo de nuestro amor por la buena comida.'
+        imageClass='customImageClass1'
+      ></OurHistory>
+      <LocationRestaurant></LocationRestaurant>
+      <Footer></Footer>
     </>
   );
 }
+
+/**colorRedTitle  */
