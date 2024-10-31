@@ -8,6 +8,7 @@
   position: fixed;
   z-index: 5;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  top: 0;
 }
 img {
   width: 180px;
@@ -17,7 +18,7 @@ ul {
   text-decoration: none;
 }
 .navBar-links {
-  margin-right: 250px;
+  margin-right: 5%;
 }
 .navBar-links li {
   display: flex;
@@ -31,6 +32,42 @@ ul {
 .navBar-links a {
   text-decoration: none;
   color: black;
-  font-size: 18px;
+  font-size: 1.2em;
   font-weight: 300;
 }
+.contentCartIcon {
+  width: 80px;
+  height: 45px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  gap: 5px;
+}
+.contentCartIcon img {
+  width: 30px;
+  height: 30px;
+}
+.contentCartIcon span {
+  font-size: 12px;
+  font-weight: 600;
+}
+.customBadge .MuiBadge-badge {
+  background-color: #d72d2d;
+}
+
+/*reestructuracion responsive*/
+
+@media screen and (max-width: 1440px) {
+  .navBar-links a {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 954px) {
+  .navBar-links {
+    margin-right: 2%;
+  }
+}
+
+/**/

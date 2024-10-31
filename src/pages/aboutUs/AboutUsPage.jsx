@@ -38,7 +38,6 @@ export default function AboutUsPage() {
         image={chefEgg}
         title='Nuestro'
         titleSpan='Compromiso'
-        titleClass='colorRedTitle'
         textInfo='La calidad es nuestra prioridad. Nos aseguramos de que cada plato que servimos esté preparado con los mejores ingredientes,
          frescos y cuidadosamente seleccionados. Estamos comprometidos a ofrecer una experiencia gastronómica que va más allá de lo común, donde cada bocado es un
           reflejo de nuestro amor por la buena comida.'

@@ -1,0 +1,115 @@
+.containerTest {
+  margin-top: 91px;
+  width: 100%;
+  height: 600px;
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerCard {
+  width: 220px;
+  height: 280px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border: 1px solid rgba(220, 10, 10, 0.4);
+}
+.cardTop {
+  background-color: #ececec;
+  width: 90%;
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 5%;
+  position: relative;
+}
+.cardTop .cardImage {
+  width: 80%;
+  height: 80%;
+}
+
+.cardMid {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  height: 45%;
+  overflow: hidden;
+  width: 100%;
+  height: 40%;
+}
+.cardTitle {
+  font-size: 1.3em;
+  color: black;
+  font-weight: 600;
+  text-align: start;
+  padding-left: 5%;
+  width: 90%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 60%;
+}
+.cardDescription {
+  font-size: 0.7em;
+  color: black;
+  font-weight: 100;
+  padding-left: 5%;
+  text-align: start;
+  width: 90%;
+  overflow: hidden; /* Oculta el desbordamiento */
+  text-overflow: ellipsis; /* Muestra '...' al final */
+  height: 3em; /* Ajusta la altura máxima que deseas para el texto */
+  line-height: 1em; /* Define la altura de línea */
+}
+.cardPrice {
+  color: #f00909;
+  font-size: 1.6em;
+  font-weight: 500;
+  padding-left: 5%;
+}
+
+.cardButtonAdd,
+.cardButtonRemove {
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.cardButtonAdd {
+  background-color: #fbba45;
+}
+.cardButtonAdd:hover {
+  background-color: #efa929;
+}
+.cardButtonRemove {
+  background-color: #f00909;
+}
+.cardButtonRemove:hover {
+  background-color: #ff4444;
+}
+.cardBottom {
+  flex: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+}
+.iconCheckBox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 80%;
+  top: 10%;
+}

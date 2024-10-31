@@ -30,7 +30,10 @@ export default function TheEnvironment() {
       <div className='midEnv'>
         <div className='leftMidEnv'>
           <h3 className='titleSectionAboutUs' id='titleSectionAboutUsWhite'>
-            El <span className='spanTitleSectionAboutUs'>Ambiente</span>
+            El{' '}
+            <span className='spanTitleSectionAboutUs' id='redSpanTitle'>
+              Ambiente
+            </span>
           </h3>
           <p className='textSectionAboutUs' id='textSectionAboutUsWhite'>
             Nuestro local es un refugio acogedor donde te sentirás como en casa.

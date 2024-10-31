@@ -10,16 +10,14 @@ import Footer from '../../components/footer/Footer';
 export default function HomePage() {
   return (
     <>
-      <div className='test'>
-        <Navbar></Navbar>
-        <MainContent></MainContent>
-        <MostRequested></MostRequested>
-        <AdvertisingPoster></AdvertisingPoster>
-        <PreviewAboutUs></PreviewAboutUs>
-        <ChoiseYourExperience></ChoiseYourExperience>
-        <LocationRestaurant></LocationRestaurant>
-        <Footer></Footer>
-      </div>
+      <Navbar></Navbar>
+      <MainContent></MainContent>
+      <MostRequested></MostRequested>
+      <AdvertisingPoster></AdvertisingPoster>
+      <PreviewAboutUs></PreviewAboutUs>
+      <ChoiseYourExperience></ChoiseYourExperience>
+      <LocationRestaurant></LocationRestaurant>
+      <Footer></Footer>
     </>
   );
 }

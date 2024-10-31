@@ -59,6 +59,10 @@
   color: white;
 }
 
+#redSpanTitle {
+  color: #d00000;
+}
+
 /* Ajustes adicionales para dispositivos móviles */
 @media (max-width: 768px) {
   .containerEnvironment {
